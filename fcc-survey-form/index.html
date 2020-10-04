@@ -44,13 +44,28 @@
       </div>
       <fieldset class="legacy-form-row">
         <legend>Would you recommend our coffee shop to other people?</legend>
-        <input id="recommendation-yes" name="recommendation" type="radio" value="yes" />
+        <input id="recommendation-yes" name="recommendation" type="radio" value="yes" checked />
         <label for="recommendation-yes" class="radio-label">Yes</label>
         <input id="recommendation-no" name="recommendation" type="radio" value="no" />
         <label for="recommendation-no" class="radio-label">No</label>
         <input id="recommendation-maybe" name="recommendation" type="radio" value="maybe" />
         <label for="recommendation-maybe" class="radio-label">Maybe</label>
       </fieldset>
+      <div class="form-row">
+        <legend>How did you hear from us?</legend>
+        <label for="hear-from-us" class="checkbox-label">
+          <input type="checkbox" id="social-media" name="social-media" value="social-media" />
+          <span>Social media (ex. Facebook, Instagram, etc.)</span>
+        </label>
+        <label for="hear-from-us" class="checkbox-label">
+          <input type="checkbox" id="friend" name="friend" value="friend" />
+          <span>From a friend.</span>
+        </label>
+        <label for="hear-from-us" class="checkbox-label">
+          <input type="checkbox" id="neighborhood" name="neighborhood" value="neighborhood" />
+          <span>Walking through the neighborhood.</span>
+        </label>
+      </div>
     </form>
   </body>
 </html>
