@@ -1,1 +1,1 @@
-Excercises from TheJSWay Chapter 03
+Exercises from TheJSWay Chapter 03
